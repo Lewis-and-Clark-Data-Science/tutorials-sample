@@ -10,7 +10,7 @@ website:
     contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: tutorial1.qmd
 
 format:
   html:

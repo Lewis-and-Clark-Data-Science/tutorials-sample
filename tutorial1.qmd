@@ -1,0 +1,31 @@
+---
+title: "Tutorial #1"
+format: 
+  html:
+    code-link: true
+engine: knitr
+webr: 
+  show-startup-message: true    # Shows loading packages
+  packages: ['ggplot2', 'dplyr', 'palmerpenguins'] # Install R packages on document open
+editor: visual
+filters: 
+  - webr
+---
+
+
+## Tutorial #1
+Using dplyr functions
+
+This tutorial comes with the `penguins` data set pre-loaded.
+
+::: {.callout-tip collapse="true"}
+## Click here to view `penguins` data set
+
+Contents and structure of `penguins`:
+```{r}
+knitr::kable(palmerpenguins::penguins)
+
+
+```
+
+:::
