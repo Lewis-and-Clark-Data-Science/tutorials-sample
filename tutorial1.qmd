@@ -18,7 +18,7 @@ filters:
 
 This tutorial comes with the `penguins` data set pre-loaded.
 
-::: {.callout-tip collapse="true"}
+::: {.callout-note collapse="true"}
 ## Click here to view `penguins` data set
 
 Contents and structure of `penguins`:
@@ -39,3 +39,21 @@ glimpse(penguins)
 
 ```
 
+
+now your turn! 
+
+```{webr-r}
+# create a bar plot comparing average bill length by species
+
+
+
+```
+
+
+::: {.callout-tip collapse="true"}
+## Hint
+
+First use group_by() with summarize() to prepare your data.
+Next, use ggplot with geom_bar() on the prepared data.
+
+:::
