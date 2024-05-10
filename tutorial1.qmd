@@ -13,8 +13,8 @@ filters:
 ---
 
 
-## Tutorial #1
-Using dplyr functions
+
+## Using dplyr functions
 
 This tutorial comes with the `penguins` data set pre-loaded.
 
@@ -29,3 +29,13 @@ knitr::kable(palmerpenguins::penguins)
 ```
 
 :::
+
+To look at the datatypes of the `penguins` columns
+
+```{webr-r}
+
+glimpse(penguins)
+
+
+```
+
