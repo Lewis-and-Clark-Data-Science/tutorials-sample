@@ -20,6 +20,16 @@
     ]
   },
   {
+    "objectID": "tutorial2.html",
+    "href": "tutorial2.html",
+    "title": "ggplot tutorial",
+    "section": "",
+    "text": "Another webr code chunk:\n\nPlease enable JavaScript to experience the dynamic code cell content on this page.",
+    "crumbs": [
+      "ggplot tutorial"
+    ]
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Sample Tutorials",

@@ -1,0 +1,26 @@
+---
+title: "ggplot tutorial"
+format: 
+  html:
+    code-link: true
+engine: knitr
+webr: 
+  show-startup-message: true    # Shows loading packages
+  packages: ['ggplot2', 'dplyr', 'palmerpenguins'] # Install R packages on document open
+editor: visual
+filters: 
+  - webr
+---
+
+
+Another webr code chunk:
+
+```{webr-r}
+
+plot(mtcars)
+
+
+```
+
+
+
