@@ -6,7 +6,7 @@ format:
 engine: knitr
 webr: 
   show-startup-message: true    # Shows loading packages
-  packages: ['ggplot2', 'dplyr', 'palmerpenguins'] # Install R packages on document open
+  packages: ['ggplot2', 'dplyr', 'palmerpenguins', 'downlit', 'xml2'] # Install R packages on document open
 editor: visual
 filters: 
   - webr
